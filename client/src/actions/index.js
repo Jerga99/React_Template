@@ -3,11 +3,13 @@ import {browserHistory} from "react-router";
 import {AUTH_USER,
         AUTH_ERROR,
         UNAUTH_USER,
-        FETCH_MESSAGE
+        FETCH_MESSAGE,
+        LOAD_RESTAURANTS
 } from "./types";
 
+import RestaurantApi from "../api/mockRestaurants";
 
-const ROOT_URL = "https://webdevbootcamp-filip99.c9users.io:8080";
+const ROOT_URL = "http://localhost:3090";
 
 export function signinUser({email, password}) {
     return function(dispatch) {
@@ -42,7 +44,6 @@ export function signupUser({email, password}) {
             browserHistory.push("/feature");
         })
         .catch(response => dispatch(authError(response.data.error)));
-       
     }
 }
 
@@ -75,3 +76,23 @@ export function fetchMessage(){
             });
     }
 }
+
+export const loadRestaurantsSucces = (restaurants) => {
+    return {
+        type: LOAD_RESTAURANTS,
+        restaurants
+    };
+}
+
+
+export const loadRestaurants = () => {
+
+    return (dispatch, getState) => {
+        return RestaurantApi.getAllRestaurants().then(restaurants => {
+            dispatch(loadRestaurantsSucces(restaurants));
+        }).catch(error => {
+            throw(error);
+        });
+    };
+}
+

@@ -5,7 +5,7 @@ import {
     FETCH_MESSAGE
 } from "../actions/types";
 
-export default function(state = {}, action){
+export var authReducer = (state = {}, action) => {
     switch(action.type){
         case AUTH_USER:
             return {...state, error: '', authenticated: true};

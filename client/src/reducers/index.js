@@ -1,10 +1,22 @@
-import { combineReducers } from 'redux';
+import * as redux from 'redux';
+import thunk from "redux-thunk";
 import { reducer as form }  from "redux-form";
-import authReducer from "./auth_reducer";
+import {authReducer} from "./auth_reducer";
+import {restaurantReducer} from "./restaurants_reducer";
 
-const rootReducer = combineReducers({
-  form,
-  auth: authReducer
-});
+export var configure = (initialState = {}) => {
 
-export default rootReducer;
+  const reducer = redux.combineReducers({
+    form,
+    auth: authReducer,
+    restaurants: restaurantReducer
+  });
+
+  var store = redux.createStore(reducer, initialState,
+      redux.compose(
+          redux.applyMiddleware(thunk),
+          window.devToolsExtension ? window.devToolsExtension() : f => f
+      ));
+
+  return store;
+};
