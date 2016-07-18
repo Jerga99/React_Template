@@ -26,6 +26,9 @@ if(token) {
 }
 
 import './style/app.scss';
+import './style/vendors/css/Grid.css'
+import './style/vendors/css/normalize.css';
+import "./style/vendors/css/ionicons.min.css";
 
 store.dispatch(actions.loadRestaurants());
 

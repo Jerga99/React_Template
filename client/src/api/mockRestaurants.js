@@ -15,21 +15,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
@@ -48,21 +48,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
@@ -81,21 +81,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
@@ -114,21 +114,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
@@ -147,21 +147,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
@@ -180,21 +180,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
@@ -213,21 +213,21 @@ const restaurants = [
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 500
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 222
             },
             {
                 name: "mock",
                 alergens: [1,2,5,6],
-                descriptiom: "mock description",
+                description: "mock description",
                 price: 5,
                 weight: 111
             }
