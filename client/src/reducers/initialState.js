@@ -1,4 +1,3 @@
 export default {
-    restaurants: [],
     auth: {}
 }
